@@ -5,7 +5,7 @@ function Todo() {
   const [edit, setEdit] = useState({
     id: null,
     value: ''
-  })    
+  })
 
   return todos.map((todo, index) => (
       <div
